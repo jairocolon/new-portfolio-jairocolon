@@ -20,7 +20,7 @@ const Home = () => {
 				</p>
 				<div>
 					<button className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#fca311] hover:border-pink-[#fca311]">
-						View Work
+						View Projects
 						<span className="group-hover:rotate-90 duration-300">
 							<HiArrowNarrowRight className="ml-3 " />
 						</span>
