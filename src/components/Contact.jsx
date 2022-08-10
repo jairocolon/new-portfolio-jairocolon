@@ -1,14 +1,26 @@
 import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
+	const [state, handleSubmit] = useForm('mpznzqyq');
+	if (state.succeeded) {
+		return (
+			<div className="bg-[#09333f] pt-4">
+				<p className="bg-[#09333f] py-4 text-4xl font-semibold text-gray-200 px-5">
+					Thanks for contacting me, talk to you soon!
+				</p>
+			</div>
+		);
+	}
+
 	return (
 		<div
 			name="contact"
 			className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
 		>
 			<form
+				onSubmit={handleSubmit}
 				method="POST"
-				action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c"
 				className="flex flex-col max-w-[600px] w-full"
 			>
 				<div className="pb-8">
@@ -21,23 +33,38 @@ const Contact = () => {
 				</div>
 				<input
 					className="bg-[#ccd6f6] p-2"
-					type="text"
-					placeholder="Name"
 					name="name"
+					type="text"
+					id="name"
+					placeholder="Name"
 				/>
+				<ValidationError prefix="Name" field="name" errors={state.errors} />
 				<input
 					className="my-4 p-2 bg-[#ccd6f6]"
+					id="email"
 					type="email"
-					placeholder="Email"
 					name="email"
+					placeholder="Email"
 				/>
+				<ValidationError prefix="Email" field="email" errors={state.errors} />
 				<textarea
 					className="bg-[#ccd6f6] p-2"
+					id="message"
 					name="message"
 					rows="10"
 					placeholder="Message"
-				></textarea>
-				<button className="text-white border-2 hover:bg-[#fca311] hover:border-[#fca311] px-4 py-3 my-8 mx-auto flex items-center">
+				/>
+				<ValidationError
+					prefix="Message"
+					field="message"
+					errors={state.errors}
+				/>
+
+				<button
+					type="submit"
+					disabled={state.submitting}
+					className="text-white border-2 hover:bg-[#fca311] hover:border-[#fca311] px-4 py-3 my-8 mx-auto flex items-center"
+				>
 					Send
 				</button>
 			</form>
