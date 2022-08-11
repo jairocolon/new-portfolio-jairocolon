@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import cv_jairo_colon from '../assets/cv.jairocolon.pdf';
 
 const Home = () => {
 	return (
@@ -19,12 +20,14 @@ const Home = () => {
 					building responsive full-stack web applications.
 				</p>
 				<div>
-					<button className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#fca311] hover:border-pink-[#fca311]">
-						View Projects
-						<span className="group-hover:rotate-90 duration-300">
-							<HiArrowNarrowRight className="ml-3 " />
-						</span>
-					</button>
+					<a href={cv_jairo_colon} download>
+						<button className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#fca311] hover:border-pink-[#fca311]">
+							Download Resumen
+							<span className="group-hover:rotate-90 duration-300">
+								<HiArrowNarrowRight className="ml-3 " />
+							</span>
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
