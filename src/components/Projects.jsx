@@ -38,7 +38,7 @@ const Projects = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo
 									</button>
 								</a>
@@ -47,7 +47,7 @@ const Projects = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
 								</a>
@@ -69,7 +69,7 @@ const Projects = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo
 									</button>
 								</a>
@@ -78,7 +78,7 @@ const Projects = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
 								</a>
@@ -97,12 +97,12 @@ const Projects = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a href="/" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo not available
 									</button>
 								</a>
 								<a href="https://github.com/jairocolon/django-generador-contrase-as" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
 								</a>
@@ -120,12 +120,12 @@ const Projects = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://pi-countries-jairo-col-n.vercel.app/" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo
 									</button>
 								</a>
 								<a href="https://github.com/jairocolon/PI-Countries-Jairo-Col-n" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
 								</a>
@@ -144,15 +144,15 @@ const Projects = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://jaicodigital.com/" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo
 									</button>
 								</a>
-								<a href="/" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+								{/* <a href="/" target="_blank" rel="noopener noreferrer">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
@@ -167,15 +167,15 @@ const Projects = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a href="/" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo
 									</button>
 								</a>
-								<a href="https://creativodigital.com.co/" target="_blank" rel="noopener noreferrer">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+								{/* <a href="https://creativodigital.com.co/" target="_blank" rel="noopener noreferrer">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
