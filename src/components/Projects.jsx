@@ -3,7 +3,7 @@ import CajeMovies from '../assets/cajemovies.png';
 import CataHernandez from '../assets/catahernandez.png';
 import Generador_de_Contraseñas from '../assets/generador_de_contraseñas.png';
 import Paises_Del_mundo from '../assets/paises_del_mundo.png';
-import Jaico_Digital from '../assets/jaico_digital.png';
+import Padela_traductor from '../assets/padela-traductor-portfolio-jairocolondev.png';
 import Creativo_Digital from '../assets/creativo_digital.png';
 
 const Projects = () => {
@@ -101,7 +101,11 @@ const Projects = () => {
 										Demo not available
 									</button>
 								</a>
-								<a href="https://github.com/jairocolon/django-generador-contrase-as" target="_blank" rel="noopener noreferrer">
+								<a
+									href="https://github.com/jairocolon/django-generador-contrase-as"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
@@ -119,12 +123,20 @@ const Projects = () => {
 								React, Node, JS
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://pi-countries-jairo-col-n.vercel.app/" target="_blank" rel="noopener noreferrer">
+								<a
+									href="https://pi-countries-jairo-col-n.vercel.app/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo
 									</button>
 								</a>
-								<a href="https://github.com/jairocolon/PI-Countries-Jairo-Col-n" target="_blank" rel="noopener noreferrer">
+								<a
+									href="https://github.com/jairocolon/PI-Countries-Jairo-Col-n"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
@@ -134,25 +146,33 @@ const Projects = () => {
 					</div>
 					{/* Grid Item */}
 					<div
-						style={{ backgroundImage: `url(${Jaico_Digital})` }}
+						style={{ backgroundImage: `url(${Padela_traductor})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-							WordPress Application
+								WordPress Application
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://jaicodigital.com/" target="_blank" rel="noopener noreferrer">
+								<a
+									href="https://padela-traductor.netlify.app/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Demo
 									</button>
 								</a>
-								{/* <a href="/" target="_blank" rel="noopener noreferrer">
+								<a
+									href="https://github.com/jairocolondev/padela-traductor"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
 										Code
 									</button>
-								</a> */}
+								</a>
 							</div>
 						</div>
 					</div>
