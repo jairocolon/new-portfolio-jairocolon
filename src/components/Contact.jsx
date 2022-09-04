@@ -7,7 +7,7 @@ const Contact = () => {
 		return (
 			<div className="bg-[#09333f] pt-4">
 				<p className="bg-[#09333f] py-4 text-4xl font-semibold text-gray-200 px-5">
-					Thanks for contacting me, talk to you soon!
+					Gracias por contactarme, ¡hablamos pronto!
 				</p>
 			</div>
 		);
@@ -25,10 +25,11 @@ const Contact = () => {
 			>
 				<div className="pb-8">
 					<p className="text-4xl font-bold inline border-b-4 border-[#fca311] text-gray-300">
-						Contact
+						Contactame
 					</p>
 					<p className="text-gray-300 py-4">
-						Submit the form below or shoot me an email - jairo@jairocolon.com
+						Envía el siguiente formulario o envíame un correo -
+						jairo@jairocolon.com
 					</p>
 				</div>
 				<input
@@ -36,7 +37,7 @@ const Contact = () => {
 					name="name"
 					type="text"
 					id="name"
-					placeholder="Name"
+					placeholder="Nombre"
 				/>
 				<ValidationError prefix="Name" field="name" errors={state.errors} />
 				<input
@@ -44,7 +45,7 @@ const Contact = () => {
 					id="email"
 					type="email"
 					name="email"
-					placeholder="Email"
+					placeholder="Correo"
 				/>
 				<ValidationError prefix="Email" field="email" errors={state.errors} />
 				<textarea
@@ -52,7 +53,7 @@ const Contact = () => {
 					id="message"
 					name="message"
 					rows="10"
-					placeholder="Message"
+					placeholder="Escribe tu mensaje..."
 				/>
 				<ValidationError
 					prefix="Message"
@@ -65,7 +66,7 @@ const Contact = () => {
 					disabled={state.submitting}
 					className="text-white border-2 hover:bg-[#fca311] hover:border-[#fca311] px-4 py-3 my-8 mx-auto flex items-center"
 				>
-					Send
+					Enviar ahora
 				</button>
 			</form>
 		</div>

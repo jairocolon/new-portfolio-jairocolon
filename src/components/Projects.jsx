@@ -15,9 +15,9 @@ const Projects = () => {
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8">
 					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#fca311]">
-						Work
+						Proyectos
 					</p>
-					<p className="py-6">Check out some of my recent work</p>
+					<p className="py-6">Estos son algunos de mis trabajos recientes</p>
 				</div>
 
 				{/* Container */}
@@ -30,7 +30,7 @@ const Projects = () => {
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								React JS Application
+								Desarrollo con JS, React
 							</span>
 							<div className="pt-8 text-center">
 								<a
@@ -39,7 +39,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Demo
+										Ver sitio
 									</button>
 								</a>
 								<a
@@ -48,7 +48,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Code
+										Ver Código
 									</button>
 								</a>
 							</div>
@@ -70,7 +70,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Demo
+										Ver sitio
 									</button>
 								</a>
 								<a
@@ -79,7 +79,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Code
+										Ver código
 									</button>
 								</a>
 							</div>
@@ -93,12 +93,12 @@ const Projects = () => {
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								Django Application
+								Desarrollo con Django
 							</span>
 							<div className="pt-8 text-center">
 								<a href="/" target="_blank" rel="noopener noreferrer">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Demo not available
+										Sitio no disponible
 									</button>
 								</a>
 								<a
@@ -107,7 +107,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Code
+										Ver código
 									</button>
 								</a>
 							</div>
@@ -129,7 +129,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Demo
+										Ver sitio
 									</button>
 								</a>
 								<a
@@ -138,7 +138,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Code
+										Ver código
 									</button>
 								</a>
 							</div>
@@ -152,7 +152,7 @@ const Projects = () => {
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								WordPress Application
+								Desarrollo con JavaScript
 							</span>
 							<div className="pt-8 text-center">
 								<a
@@ -161,7 +161,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Demo
+										Ver sitio
 									</button>
 								</a>
 								<a
@@ -170,7 +170,7 @@ const Projects = () => {
 									rel="noopener noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Code
+										Ver código
 									</button>
 								</a>
 							</div>
@@ -183,12 +183,12 @@ const Projects = () => {
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								WordPress Application
+								Desarrollado con WordPress
 							</span>
 							<div className="pt-8 text-center">
 								<a href="/" target="_blank" rel="noopener noreferrer">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-cyan-900 hover:text-white">
-										Demo
+										Ver sitio
 									</button>
 								</a>
 								{/* <a href="https://creativodigital.com.co/" target="_blank" rel="noopener noreferrer">
