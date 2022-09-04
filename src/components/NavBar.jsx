@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+import {
+	FaBars,
+	FaTimes,
+	FaGithub,
+	FaLinkedin,
+	FaTwitter,
+} from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
@@ -27,34 +32,59 @@ const NavBar = () => {
 			{/* Menú */}
 			<ul className="hidden md:flex">
 				<li>
-					<Link to="home" smooth={true} duration={500}>
-						Home
+					<Link
+						className="uppercase hover:underline"
+						to="home"
+						smooth={true}
+						duration={500}
+					>
+						Inicio
 					</Link>
 				</li>
 				<li>
-					<Link to="about" smooth={true} duration={500}>
-						About
+					<Link
+						className="uppercase hover:underline"
+						to="about"
+						smooth={true}
+						duration={500}
+					>
+						Sobre mi
 					</Link>
 				</li>
 				<li>
-					<Link to="projects" smooth={true} duration={500}>
-						Projects
+					<Link
+						className="uppercase hover:underline"
+						to="projects"
+						smooth={true}
+						duration={500}
+					>
+						Proyectos
 					</Link>
 				</li>
 				<li>
-					<Link to="skills" smooth={true} duration={500}>
-						Skills
+					<Link
+						className="uppercase hover:underline"
+						to="skills"
+						smooth={true}
+						duration={500}
+					>
+						Habilidades
 					</Link>
 				</li>
 				<li>
-					<Link to="contact" smooth={true} duration={500}>
-						Contact
+					<Link
+						className="uppercase hover:underline"
+						to="contact"
+						smooth={true}
+						duration={500}
+					>
+						Contactame
 					</Link>
 				</li>
 			</ul>
 
 			{/* Menú Hamburguesa */}
-			<div onClick={handleClick} className="md:hidden z-10">
+			<div onClick={handleClick} className="md:hidden z-10 transition">
 				{!isOpen ? <FaBars /> : <FaTimes />}
 			</div>
 
@@ -63,41 +93,66 @@ const NavBar = () => {
 				className={
 					!isOpen
 						? 'hidden'
-						: 'absolute top-0 left-0 w-full h-screen bg-[#09333f] flex flex-col justify-center items-center opacity-90 transition-opacity duration-500 ease-in-out'
+						: 'absolute top-0 left-0 w-full h-screen bg-[#09333f] flex flex-col justify-center items-center duration-500 ease-in-out'
 				}
 			>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="home" smooth={true} duration={500}>
-						Home
-					</Link>
-				</li>
-				<li className="py-6 text-4xl">
-					{' '}
-					<Link onClick={handleClick} to="about" smooth={true} duration={500}>
-						About
+					<Link
+						className="uppercase hover:underline"
+						onClick={handleClick}
+						to="home"
+						smooth={true}
+						duration={500}
+					>
+						Inicio
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
 					{' '}
 					<Link
+						className="uppercase hover:underline"
+						onClick={handleClick}
+						to="about"
+						smooth={true}
+						duration={500}
+					>
+						Sobre mi
+					</Link>
+				</li>
+				<li className="py-6 text-4xl">
+					{' '}
+					<Link
+						className="uppercase hover:underline"
 						onClick={handleClick}
 						to="projects"
 						smooth={true}
 						duration={500}
 					>
-						Projects
+						Proyectos
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
 					{' '}
-					<Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-						Skills
+					<Link
+						className="uppercase hover:underline"
+						onClick={handleClick}
+						to="skills"
+						smooth={true}
+						duration={500}
+					>
+						Habilidades
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
 					{' '}
-					<Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-						Contact
+					<Link
+						className="uppercase hover:underline"
+						onClick={handleClick}
+						to="contact"
+						smooth={true}
+						duration={500}
+					>
+						Contactame
 					</Link>
 				</li>
 			</ul>
@@ -137,11 +192,11 @@ const NavBar = () => {
 					>
 						<a
 							className="flex justify-between items-center w-full text-white"
-							href="jairo@jairocolon.com"
+							href="https://twitter.com/jairocolondev"
 							target="_blank"
 							rel="noreferrer"
 						>
-							Mail <HiOutlineMail size={30} />
+							Twitter <FaTwitter size={30} />
 						</a>
 					</li>
 					<li
@@ -154,7 +209,7 @@ const NavBar = () => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							Resumen <BsFillPersonLinesFill size={30} />
+							Curriculum <BsFillPersonLinesFill size={30} />
 						</a>
 					</li>
 				</ul>

@@ -7,24 +7,29 @@ const About = () => {
 				<div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
 					<div className="sm:text-right pb-8 pl-4">
 						<p className="text-4xl font-bold inline border-b-4 border-[#fca311]">
-							About
+							Sobre mi
 						</p>
 					</div>
 					<div></div>
 				</div>
 				<div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
 					<div className="sm:text-right text-4xl font-bold">
-						<p>Hi. I'm Jairo, nice to meet you. Please take a look around.</p>
+						<p>
+							Hola de nuevo, soy Jairo Colón, encantado de que estés aquí. Por
+							favor, mira lo que hago y si gustas estoy disponible para ti y tu
+							equipo.
+						</p>
 					</div>
 					<div>
 						<p>
-							I am passionate about creating software, I love to create
-							websites, mobile apps, with the best user experience and sites
-							adaptable to all devices. In addition, all websites are optimized
-							for <strong>SEO</strong> and <strong>DMS</strong> (Digital
-							Marketing Strategies).
+							Me apasiona la creación de software, diseñar y desarrollar
+							aplicaciones y páginas web, al igual que aplicaciones móviles, con
+							la mejor experiencia de usuario posible y sitios adaptables a
+							todos los dispositivos. Además, todos los sitios web los optimizo
+							desde su estructura para <strong>SEO</strong> (Search Engine
+							Optimization) y <strong>MS</strong> (Marketing strategies).
 							<p className="py-2">
-								¿What would you do if you had a software developer at hand?
+								¿Qué harías si tuvieras un desarrollador de software a la mano?
 							</p>
 						</p>
 					</div>
