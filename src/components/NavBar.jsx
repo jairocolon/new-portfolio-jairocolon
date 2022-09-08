@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import {
 	FaBars,
 	FaTimes,
@@ -8,9 +8,13 @@ import {
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
+import flagES from '../assets/colombia.png';
+import flagEN from '../assets/us.png';
 import { Link } from 'react-scroll';
+import { languageContext } from '../context/languageContext';
 
 const NavBar = () => {
+	const language = useContext(languageContext);
 	const [isOpen, setIsOpen] = useState(false);
 	const handleClick = () => setIsOpen(!isOpen);
 
@@ -82,6 +86,14 @@ const NavBar = () => {
 					</Link>
 				</li>
 			</ul>
+			<div className="flex gap-4 mr-6">
+				<button onClick={() => language.changeLanguage('es-MX')}>
+					<img style={{ width: 40, height: 40 }} src={flagES} alt="" />
+				</button>
+				<button onClick={() => language.changeLanguage('en-US')}>
+					<img style={{ width: 40, height: 40 }} src={flagEN} alt="" />
+				</button>
+			</div>
 
 			{/* Menú Hamburguesa */}
 			<div onClick={handleClick} className="md:hidden z-10 transition">

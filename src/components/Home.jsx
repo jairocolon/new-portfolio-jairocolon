@@ -1,18 +1,27 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import cv_jairo_colon from '../assets/cv.jairocolon.pdf';
+import { FormattedMessage } from 'react-intl';
 
 const Home = () => {
 	return (
 		<div name="home" className="w-full h-screen bg-[#0a192f]">
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-				<p className="text-[#fca311]">Hola, mi nombre es</p>
+				<p className="text-[#fca311]">
+					<FormattedMessage
+						id="app.greetings"
+						defaultMessage="Hola, mi nombre es"
+					/>
+				</p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
 					Jairo Colón
 				</h1>
 				<h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-					Soy Frontend Developer
+					<FormattedMessage
+						id="app.frontend"
+						defaultMessage="Soy Frontend Developer"
+					/>
 				</h2>
 				<p className="text-[#8892b0] py-4 max-w-[700px]">
 					Full-stack Developer, orientado más al lado del cliente como (
