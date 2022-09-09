@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, /*useContext*/ } from 'react';
 import {
 	FaBars,
 	FaTimes,
@@ -8,27 +8,28 @@ import {
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
-import flagES from '../assets/colombia.png';
-import flagEN from '../assets/us.png';
+// import flagES from '../assets/colombia.png';
+// import flagEN from '../assets/us.png';
 import { Link } from 'react-scroll';
-import { languageContext } from '../context/languageContext';
+// import { languageContext } from '../context/languageContext';
 
 const NavBar = () => {
-	const language = useContext(languageContext);
+	// const language = useContext(languageContext);
 	const [isOpen, setIsOpen] = useState(false);
 	const handleClick = () => setIsOpen(!isOpen);
 
 	return (
 		<div
 			className="fixed w-full h-[80px] flex justify-between items-center 
-       px-4 bg-[#09333f] text-gray-200"
+       px-4 bg-[#09333f] text-gray-200 z-50"
 		>
 			<div>
 				<a href="/">
 					<img
+					  className='ml-6'
 						src={Logo}
 						alt="Jairo Colón Developer"
-						style={{ width: '150px' }}
+						style={{ width: '80px' }}
 					/>
 				</a>
 			</div>
@@ -86,14 +87,14 @@ const NavBar = () => {
 					</Link>
 				</li>
 			</ul>
-			<div className="flex gap-4 mr-6">
+			{/* <div className="flex gap-4 mr-6">
 				<button onClick={() => language.changeLanguage('es-MX')}>
 					<img style={{ width: 40, height: 40 }} src={flagES} alt="" />
 				</button>
 				<button onClick={() => language.changeLanguage('en-US')}>
 					<img style={{ width: 40, height: 40 }} src={flagEN} alt="" />
 				</button>
-			</div>
+			</div> */}
 
 			{/* Menú Hamburguesa */}
 			<div onClick={handleClick} className="md:hidden z-10 transition">
@@ -217,7 +218,7 @@ const NavBar = () => {
 					>
 						<a
 							className="flex justify-between items-center w-full text-white"
-							href="https://drive.google.com/file/d/1LCGgLKGOpg8NBBgQf5U_c1yNO17u_qqk/view?usp=sharing"
+							href="https://drive.google.com/file/d/1q0MM4dXIu9AkeJGhtIGg0Yf3K1XA0z75/view?usp=sharing"
 							target="_blank"
 							rel="noreferrer"
 						>

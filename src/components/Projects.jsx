@@ -10,7 +10,7 @@ const Projects = () => {
 	return (
 		<div
 			name="projects"
-			className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+			className="w-full md:h-screen text-gray-300 bg-[#0a192f] z-10"
 		>
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8">
@@ -21,7 +21,7 @@ const Projects = () => {
 				</div>
 
 				{/* Container */}
-				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 z-10">
 					{/* Grid Item */}
 					<div
 						style={{ backgroundImage: `url(${CajeMovies})` }}
