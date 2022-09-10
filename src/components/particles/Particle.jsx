@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
-function Particle() {
+const Particle = () => {
 	/*const connectParticle = {
 		fullScreen: {
 			enable: true,

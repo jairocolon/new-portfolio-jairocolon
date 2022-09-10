@@ -1,12 +1,12 @@
 import React from 'react';
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Redux from '../assets/redux.png';
-import Python from '../assets/python.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
+import HTML from '../../assets/icons/html.png';
+import CSS from '../../assets/icons/css.png';
+import JavaScript from '../../assets/icons/javascript.png';
+import ReactImg from '../../assets/icons/react.png';
+import Redux from '../../assets/icons/redux.png';
+import Python from '../../assets/icons/python.png';
+import GitHub from '../../assets/icons/github.png';
+import Tailwind from '../../assets/icons/tailwind.png';
 
 const Skills = () => {
 	return (

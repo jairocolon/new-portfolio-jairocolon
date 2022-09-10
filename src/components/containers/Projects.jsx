@@ -1,10 +1,10 @@
 import React from 'react';
-import CajeMovies from '../assets/cajemovies.png';
-import CataHernandez from '../assets/catahernandez.png';
-import Generador_de_Contraseñas from '../assets/generador_de_contraseñas.png';
-import Paises_Del_mundo from '../assets/paises_del_mundo.png';
-import Padela_traductor from '../assets/padela-traductor-portfolio-jairocolondev.png';
-import Creativo_Digital from '../assets/creativo_digital.png';
+import CajeMovies from '../../assets/img/cajemovies.png';
+import CataHernandez from '../../assets/img/catahernandez.png';
+import Generador_de_Contraseñas from '../../assets/img/generador_de_contraseñas.png';
+import Paises_Del_mundo from '../../assets/img/paises_del_mundo.png';
+import Padela_traductor from '../../assets/img/padela-traductor-portfolio-jairocolondev.png';
+import Creativo_Digital from '../../assets/img/creativo_digital.png';
 
 const Projects = () => {
 	return (

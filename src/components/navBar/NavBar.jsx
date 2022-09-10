@@ -7,11 +7,11 @@ import {
 	FaTwitter,
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo_jairocolondev.png';
-// import flagES from '../assets/colombia.png';
-// import flagEN from '../assets/us.png';
+import Logo from '../../assets/logos/logo_jairocolondev.png';
+// import flagES from '../../assets/colombia.png';
+// import flagEN from '../../assets/us.png';
 import { Link } from 'react-scroll';
-// import { languageContext } from '../context/languageContext';
+// import { languageContext } from '../../context/languageContext';
 
 const NavBar = () => {
 	// const language = useContext(languageContext);

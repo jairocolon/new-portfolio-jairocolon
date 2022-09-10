@@ -1,13 +1,22 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import cv_jairo_colon from '../assets/cv.jairocolon.pdf';
+import cv_jairo_colon from '../../assets/pdf/cv.jairocolon.pdf';
 import { FormattedMessage } from 'react-intl';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
+import Contact from './Contact';
+// import Particle from '../particles/Particle';
+import NavBar from '../navBar/NavBar';
+import Footer from '../footer/Footer';
 
 const Home = () => {
 	return (
 		<div name="home" className="w-full h-screen bg-[#0a192f] z-10">
+			<NavBar />
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full z-10">
+			{/* <Particle /> */}
 				<p className="text-[#fca311] z-10">
 					<FormattedMessage
 						id="app.greetings"
@@ -42,6 +51,11 @@ const Home = () => {
 					</a>
 				</div>
 			</div>
+			<About/>
+			<Skills />
+			<Projects />
+			<Contact />
+			<Footer />
 		</div>
 	);
 };
