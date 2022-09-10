@@ -2,7 +2,6 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import cv_jairo_colon from '../../assets/pdf/cv.jairocolon.pdf';
 import { FormattedMessage } from 'react-intl';
-import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -51,7 +50,6 @@ const Home = () => {
 					</a>
 				</div>
 			</div>
-			<About/>
 			<Skills />
 			<Projects />
 			<Contact />
