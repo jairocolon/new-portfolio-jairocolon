@@ -49,7 +49,7 @@ const NavBar = () => {
 				<li>
 					<Link
 						className="uppercase hover:underline"
-						to="about"
+						to="/about"
 						smooth={true}
 						duration={500}
 					>
