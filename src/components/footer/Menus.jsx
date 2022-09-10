@@ -1,37 +1,37 @@
-// export const PRODUCTS = [
-// 	{ name: 'Drag And Drop', link: '#' },
-// 	{ name: 'Visual Studio X', link: '#' },
-// 	{ name: 'Easy Content', link: '#' },
-// ];
-export const RESOURCES = [
-	{ name: 'Industries and tools', link: '#' },
-	{ name: 'Use cases', link: '#' },
-	{ name: 'Blog', link: '#' },
-	{ name: 'Online evenet', link: '#' },
-	{ name: 'Nostrud exercitation', link: '#' },
+export const MY_BRANDS = [
+	{ name: 'Sobre mi', link: '/about' },
+	{ name: 'JaiCo Digital', link: 'https://jaicodigital.com/' },
+	{ name: 'CreatiVo Digital', link: 'https://creativodigital.com.co/' },
+	{ name: 'Blog', link: '/blog' },
 ];
-export const MY_BRAND = [
-	{ name: 'Diversity & inclusion', link: '#' },
-	{ name: 'About us', link: '#' },
-	{ name: 'Press', link: '#' },
-	{ name: 'Customer Stories', link: '#' },
-	{ name: 'Online communities', link: '#' },
+
+export const SERVICES = [
+	{ name: 'Diseño y Desarrollo Web', link: '/desarrollo-web' },
+	{ name: 'Desarrollo en WordPress', link: '/desarrollo-wordpress' },
+	{ name: 'Desarrollo Mobile', link: '/desarrollo-mobile' },
+	{ name: 'Tiendas Virtuales', link: 'https://jaicodigital.com/desarrollo-de-tiendas-online/' },
+	{ name: 'Posicionamiento SEO', link: 'https://creativodigital.com.co/posicionamiento-seo/' },
 ];
-export const SUPPORT = [
+
+export const PAGES_INTEREST = [
 	{ name: 'Documentation', link: '#' },
 	{ name: 'Tutorials & guides', link: '#' },
 	{ name: 'Webinars', link: '#' },
 	{ name: 'Open-source', link: '#' },
 ];
 
-export const Icons = [
-	{ name: 'logo-facebook', link: '#' },
-	{ name: 'logo-twitter', link: '#' },
-	{ name: 'logo-github', link: '#' },
-	{ name: 'logo-linkedin', link: '#' },
-	{ name: 'logo-instagram', link: '#' },
+export const CENTRO_DE_AYUDA = [
+	{ name: 'Aviso Legal', link: '/aviso-legal' },
+	{ name: 'Política de Cookies', link: '/politica-de-cookies' },
+	{ name: 'Condiciones de Compra', link: '/condiciones-de-compra' },
 ];
 
 export const TERMS = [
-  { name: 'Términos · Política de Privacidad', link: '/politica_de_privacidad'}
+  { name: 'Términos · Política de Privacidad', link: '/politica-de-privacidad', target: 'target_blank' }
 ]
+
+export const ICONS = [
+  { name: 'logo-twitter', link: 'https://twitter.com/jairocolondev' },
+  { name: 'logo-github', link: 'https://github.com/jairocolondev' },
+  { name: 'logo-linkedin', link: 'https://www.linkedin.com/in/jairocolondev/' },
+];
