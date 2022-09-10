@@ -7,7 +7,7 @@ import {
 	FaTwitter,
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../../assets/logos/logo_jairocolondev.png';
+import Logo from '../../../../_metronic/assets/logos/logo_jairocolondev.png';
 // import flagES from '../../assets/colombia.png';
 // import flagEN from '../../assets/us.png';
 import { Link } from 'react-scroll';

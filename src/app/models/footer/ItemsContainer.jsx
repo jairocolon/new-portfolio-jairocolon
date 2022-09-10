@@ -1,6 +1,6 @@
 import Item from './Item';
 import {CENTRO_DE_AYUDA,  MY_BRANDS, SERVICES, PAGES_INTEREST} from './Menus';
-import Logo from '../../assets/logos/logo_jairocolondev.png';
+import Logo from '../../../_metronic/assets/logos/logo_jairocolondev.png';
 
 const ItemsContainer = () => {
 	return (

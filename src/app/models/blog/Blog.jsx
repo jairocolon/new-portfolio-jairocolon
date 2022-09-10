@@ -1,8 +1,8 @@
 import React from 'react';
 import Footer from '../footer/Footer';
-import NavBar from '../navBar/NavBar';
-// import Particle from '../particles/Particle';
-import gif_blog_jairocolondev from '../../assets/gifs/gif_blog_jairocolondev.gif'
+import NavBar from '../../pages/layout/navToolBar/NavBar';
+// import Particle from '../particles/Particle'
+import gif_blog_jairocolondev from '../../../_metronic/assets/gifs/gif_blog_jairocolondev.gif'
 
 function Blog() {
 	return (

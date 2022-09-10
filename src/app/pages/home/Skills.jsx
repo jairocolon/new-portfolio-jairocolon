@@ -1,12 +1,12 @@
 import React from 'react';
-import HTML from '../../assets/icons/html.png';
-import CSS from '../../assets/icons/css.png';
-import JavaScript from '../../assets/icons/javascript.png';
-import ReactImg from '../../assets/icons/react.png';
-import Redux from '../../assets/icons/redux.png';
-import Python from '../../assets/icons/python.png';
-import GitHub from '../../assets/icons/github.png';
-import Tailwind from '../../assets/icons/tailwind.png';
+import HTML from '../../../_metronic/assets/icons/html.png';
+import CSS from '../../../_metronic/assets/icons/css.png';
+import JavaScript from '../../../_metronic/assets/icons/javascript.png';
+import ReactImg from '../../../_metronic/assets/icons/react.png';
+import Redux from '../../../_metronic/assets/icons/redux.png';
+import Python from '../../../_metronic/assets/icons/python.png';
+import GitHub from '../../../_metronic/assets/icons/github.png';
+import Tailwind from '../../../_metronic/assets/icons/tailwind.png';
 
 const Skills = () => {
 	return (

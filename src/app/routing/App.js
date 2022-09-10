@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from '../about/About';
-import Blog from '../blog/Blog';
-import Home from '../containers/Home';
-import CookiesPolicy from '../terms/CookiesPolicy';
-import LegalWarning from '../terms/LegalWarning';
-import PrivacyPolicy from '../terms/PrivacyPolicy';
-import PurchaseConditions from '../terms/PurchaseConditions';
+import About from '../../app/models/about/About';
+import Blog from '../../app/models/blog/Blog';
+import Home from '../../app/pages/home/Home';
+import CookiesPolicy from '../../app/models/terms/CookiesPolicy';
+import LegalWarning from '../../app/models/terms/LegalWarning';
+import PrivacyPolicy from '../../app/models/terms/PrivacyPolicy';
+import PurchaseConditions from '../../app/models/terms/PurchaseConditions';
 
 const App = () => {
 	return (

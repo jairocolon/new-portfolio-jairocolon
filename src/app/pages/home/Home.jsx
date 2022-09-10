@@ -1,13 +1,13 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import cv_jairo_colon from '../../assets/pdf/cv.jairocolon.pdf';
+import cv_jairo_colon from '../../../_metronic/assets/pdf/cv.jairocolon.pdf';
 import { FormattedMessage } from 'react-intl';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 // import Particle from '../particles/Particle';
-import NavBar from '../navBar/NavBar';
-import Footer from '../footer/Footer';
+import NavBar from '../layout/navToolBar/NavBar';
+import Footer from '../../models/footer/Footer';
 
 const Home = () => {
 	return (

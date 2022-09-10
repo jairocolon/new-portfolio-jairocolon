@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../footer/Footer';
-import NavBar from '../navBar/NavBar';
+import Footer from '../../models/footer/Footer';
+import NavBar from '../../pages/layout/navToolBar/NavBar';
 // import Particle from '../particles/Particle';
 
 function CookiesPolicy() {

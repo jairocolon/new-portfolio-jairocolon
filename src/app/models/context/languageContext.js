@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IntlProvider } from 'react-intl';
-import englishMessage from './../language/en-US.json';
-import espanolMessage from './../language/es-MX.json';
+import englishMessage from '../language/en-US.json';
+import espanolMessage from '../language/es-MX.json';
 
 const languageContext = React.createContext();
 
