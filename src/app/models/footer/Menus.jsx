@@ -6,18 +6,18 @@ export const MY_BRANDS = [
 ];
 
 export const SERVICES = [
-	{ name: 'Diseño y Desarrollo Web', link: '/desarrollo-web' },
+	{ name: 'Desarrollo Web', link: '/desarrollo-web' },
 	{ name: 'Desarrollo en WordPress', link: '/desarrollo-wordpress' },
 	{ name: 'Desarrollo Mobile', link: '/desarrollo-mobile' },
 	{ name: 'Tiendas Virtuales', link: 'https://jaicodigital.com/desarrollo-de-tiendas-online/' },
 	{ name: 'Posicionamiento SEO', link: 'https://creativodigital.com.co/posicionamiento-seo/' },
 ];
 
-export const PAGES_INTEREST = [
-	{ name: 'Documentation', link: '#' },
-	{ name: 'Tutorials & guides', link: '#' },
-	{ name: 'Webinars', link: '#' },
-	{ name: 'Open-source', link: '#' },
+export const SERVICES_OTHER = [
+	{ name: 'Marketing Digital', link: 'https://creativodigital.com.co/marketing-digital-en-bogota/' },
+	{ name: 'Manejo de Redes Sociales', link: 'https://creativodigital.com.co/manejo-de-redes-sociales/' },
+	{ name: 'Inbound Marketing', link: 'https://creativodigital.com.co/agencia-inbound-marketing-en-bogota/' },
+	{ name: 'Marketing de Contenido', link: 'https://creativodigital.com.co/marketing-de-contenido/' },
 ];
 
 export const CENTRO_DE_AYUDA = [
