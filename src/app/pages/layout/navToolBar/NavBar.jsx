@@ -46,7 +46,7 @@ const NavBar = () => {
 						Inicio
 					</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link
 						className="uppercase hover:underline"
 						to="/about"
@@ -55,7 +55,7 @@ const NavBar = () => {
 					>
 						Sobre mi
 					</Link>
-				</li>
+				</li> */}
 				<li>
 					<Link
 						className="uppercase hover:underline"
@@ -179,7 +179,7 @@ const NavBar = () => {
 					>
 						<a
 							className="flex justify-between items-center w-full text-white"
-							href="https://www.linkedin.com/in/jairocolondeveloper/"
+							href="https://www.linkedin.com/in/jairocolondev/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -192,7 +192,7 @@ const NavBar = () => {
 					>
 						<a
 							className="flex justify-between items-center w-full text-gray-100"
-							href="https://github.com/jairocolon"
+							href="https://github.com/jairocolondev"
 							target="_blank"
 							rel="noreferrer"
 						>

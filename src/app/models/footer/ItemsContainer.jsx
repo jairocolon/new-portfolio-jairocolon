@@ -1,10 +1,10 @@
 import Item from './Item';
-import {CENTRO_DE_AYUDA,  MY_BRANDS, SERVICES, SERVICES_OTHER} from './Menus';
+import {CENTRO_DE_AYUDA,  ABOUT, SERVICES} from './Menus';
 import Logo from '../../../_metronic/assets/logos/logo_jairocolondev.png';
 
 const ItemsContainer = () => {
 	return (
-		<div className="grid grid-cols-4 px-5 py-16 gap-6 lg:grid-cols-5 sm:px-8 sm:grid-cols-3">
+		<div className="grid grid-cols-1 px-5 py-16 lg:grid-cols-4 gap-6 sm:px-8 sm:grid-cols-3 ">
 			<div>
 				<a href="/">
 					<img
@@ -15,9 +15,8 @@ const ItemsContainer = () => {
 					/>
 				</a>
 			</div>
-			<Item Links={MY_BRANDS} title="MIS MARCAS" />
+			<Item Links={ABOUT} title="MIS MARCAS" />
 			<Item Links={SERVICES} title="SERVICIOS" />
-			<Item Links={SERVICES_OTHER} title="OTROS SERVICIOS" />
 			<Item Links={CENTRO_DE_AYUDA} title="CENTRO DE AYUDA" />
 		</div>
 	);
